@@ -1,0 +1,143 @@
+body {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../assets/fonts/SF-Pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.books-page {
+  background-color: #343434;
+  color: #efebe6;
+  font-family: 'SF Pro';
+  margin: 0;
+  padding: 2rem;
+}
+
+.books-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.language-toggle {
+  top: 1rem;
+  right: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+.language-toggle a.active {
+  opacity: 1;
+  color: #efebe6;
+}
+.language-toggle a:hover {
+  opacity: 1;
+}
+
+
+
+.books-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+.books-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.breadcrumb {
+  color: #bbb;
+  font-size: 0.9rem;
+}
+.breadcrumb a {
+  opacity: 0.6;
+}
+.breadcrumb a.active {
+  opacity: 1;
+}
+.breadcrumb a:hover {
+  opacity: 1;
+}
+
+.books-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.books-menu a {
+  color: #efebe6;
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  margin-top: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.books-menu a.active {
+  font-weight: bold;
+  opacity: 1;
+}
+.books-menu a:hover {
+  opacity: 1;
+}
+
+
+.book-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0rem;
+  margin: 0;
+}
+
+.book-spine {
+  height: auto;
+  max-width: 75%;
+  object-fit: contain;
+  align-self: flex-end;
+  margin-top: -5px;
+}
+.missing-books {
+  margin-top: 2rem;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #efebe6
+}
+
+a {
+  color: #efebe6;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+a:visited {
+  color: #efebe6;
+  opacity: 0.5;
+}
+
+a.active {
+  opacity: 1;
+}

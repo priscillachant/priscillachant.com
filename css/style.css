@@ -1,0 +1,148 @@
+body {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('/assets/fonts/SF-Pro.ttf') format('truetype');
+  font-style: normal;
+  }
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #c24b3c;
+  font-family: sans-serif;
+  color: #000;
+  padding-top: 50px;
+}
+
+header {
+  height: 20%;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-wrapper {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.language-toggle {
+  font-family: 'SF Pro', sans-serif;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.language-toggle a {
+  opacity: 0.5;
+}
+
+.language-toggle a.active {
+  opacity: 1;
+  color: #efebe6;
+}
+
+.folder-grid {
+  display: grid;
+  grid-template-areas:
+    "design shop about  . . . . archive"
+    "marketing . . . . . . ."
+    "photo . . . . . . ."
+    "video . . . . . . .";
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: auto;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  background-color: transparent;
+  place-items: center;
+  box-sizing: border-box;
+}
+
+.folder.design    { grid-area: design; }
+.folder.shop      { grid-area: shop; }
+.folder.about     { grid-area: about; }
+.folder.marketing { grid-area: marketing; }
+.folder.photo     { grid-area: photo; }
+.folder.video     { grid-area: video; }
+
+.archive-folder {
+  grid-area: archive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+#archive-toggle {
+  cursor: pointer;
+}
+
+#archive-toggle:hover {
+  transform: rotate(2deg) scale(1.05);
+}
+
+.subfolder-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.57rem;
+  margin-top: 1rem;
+  transition: opacity 0.4s ease;
+  transform: translateY(91px);
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+  /*transform: translateY(-10%); */
+  pointer-events: none;
+}
+
+
+.folder-img {
+  width: 100px;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+}
+
+.folder-img:hover {
+  transform: rotate(2deg) scale(1.05);
+}
+
+
+a {
+  color: #efebe6;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #efebe6;
+  opacity: 0.5;
+}
+
+a.active {
+  opacity: 1;
+}

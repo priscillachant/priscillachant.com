@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301.96 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffce00;
+      }
+
+      .cls-2 {
+        fill: #343434;
+        font-family: SFPro-Semibold, 'SF Pro';
+        font-size: 30px;
+        font-variation-settings: 'wdth' 100, 'opsz' 28, 'wght' 590;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="tabs">
+    <path id="about_tab" data-name="about tab" class="cls-1" d="M301.96,673.2v193.76c0,3.84-2.21,7.33-5.68,8.97l-29.07,9.87c-3.46,1.64-5.67,5.13-5.67,8.97l.05,154.03c0,13.14-8.74,18.64-21.71,20.72-6.65,1.06-17.43,2.95-22.75,10.48H0V0h217.11c5.32,7.54,16.1,9.43,22.75,10.49,12.97,2.07,21.71,7.57,21.71,20.71l-.02,615.11c0,3.68,2.03,7.05,5.27,8.77l29.88,9.36c3.24,1.72,5.27,5.09,5.27,8.76Z"/>
+    <text class="cls-2" transform="translate(268.81 707.66) rotate(90)"><tspan x="0" y="0">about me</tspan></text>
+  </g>
+</svg>

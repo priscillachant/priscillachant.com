@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 271 1111">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #343434;
+        font-family: SFPro-Semibold, 'SF Pro';
+        font-size: 30px;
+        font-variation-settings: 'wdth' 100, 'opsz' 28, 'wght' 590;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #efebe6;
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="0" y="0" width="271" height="1111" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".07"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tabs">
+    <path id="photography" class="cls-5" d="M249.47,320.84v193.76c0,3.84-2.21,7.33-5.68,8.97l-29.07,9.87c-3.46,1.64-5.67,5.13-5.67,8.97v515.07c0,13.14-8.74,18.64-21.71,20.72-6.65,1.06-17.43,2.95-22.75,10.48H9.96V8.68h154.63c5.32,7.54,16.1,9.43,22.75,10.49,12.97,2.07,21.71,7.57,21.71,20.71v254.07c0,3.68,2.03,7.05,5.27,8.77l29.88,9.36c3.24,1.72,5.27,5.09,5.27,8.76Z"/>
+    <text class="cls-1" transform="translate(219.69 329.43) rotate(90)"><tspan x="0" y="0">pho</tspan><tspan class="cls-2" x="51.06" y="0">t</tspan><tspan x="60.82" y="0">og</tspan><tspan class="cls-3" x="94.83" y="0">r</tspan><tspan x="104.79" y="0">ap</tspan><tspan class="cls-4" x="138.03" y="0">h</tspan><tspan x="155.02" y="0">y</tspan></text>
+  </g>
+</svg>
